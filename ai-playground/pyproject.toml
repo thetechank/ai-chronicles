@@ -1,0 +1,53 @@
+[project]
+name = "ai-playground"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic",
+    "autogen-agentchat",
+    "autogen-ext[grpc,mcp,ollama,openai]",
+    "bs4",
+    "chromadb",
+    "google-adk",
+    "gradio",
+    "httpx[socks]",
+    "ipywidgets",
+    "langchain-anthropic",
+    "langchain-chroma",
+    "langchain-community",
+    "langchain-experimental",
+    "langchain-openai",
+    "langchain-text-splitters",
+    "langgraph",
+    "langgraph-checkpoint-sqlite",
+    "langsmith",
+    "litellm",
+    "lxml",
+    "matplotlib",
+    "mcp-server-fetch",
+    "mcp[cli]",
+    "nbformat",
+    "openai",
+    "openai-agents",
+    "playwright",
+    "plotly",
+    "polygon-api-client",
+    "psutil",
+    "pypdf",
+    "pypdf2",
+    "python-dotenv",
+    "requests",
+    "scikit-learn",
+    "sendgrid",
+    "setuptools",
+    "smithery",
+    "speedtest-cli",
+    "wikipedia",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel",
+]
